@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onLogin(View view) {
 
-        Intent meetUpIntent = new Intent(this, MeetUpActivity.class):
+        Intent meetUpIntent = new Intent(this, MeetUpActivity.class);
         startActivity(meetUpIntent);
 
     }
