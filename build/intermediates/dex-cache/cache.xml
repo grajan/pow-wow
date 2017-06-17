@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_6692702a1e08c2a5a0c4a056bd648e870a751302\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bad0c83964fea0f917dc45858e28c80ff1fb6d85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\41fcc43780807f68992dcb374f23b5e573742feb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa699747da8957b6c1d0c62fab346ce340958e79">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f18d59ebd24a8ba2f2b3e9dee1d13bbcd7d7135e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\85c8fc16fe3676ae22ffdb522a0369b2635fc100\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_877173df3860d2c080b7e7266cbe44c38af919cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\403c48335b632f866397ca9322408c2fe3a28401\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1466906a4e34b338748ad21668b872538bdeb436\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\50c840793d18f8049d2b103af63040e3cd896a4e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_efefe5ebcb85b32831d40c13d6eb7f84c2c5d01c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_9466453e77669a2995b393a0144d8b2a614332d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\f5cd056c7639d51e70ebe88e96a9ff1f61f19c48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2bc083d73865a8ef3b16611b877e895b9ebef6f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\a791f50cfe0943f9fbb2f431dfdf9eb8a72354b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_266a1fc688b6214d628ff3da0b8d14420d6ce7da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\6dd4a80a40e607a037179fe979f048b4877aaa12\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93f128fc4c798c9a9d14d2ed75a30c15dddb6e71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\c008ff630ea8bded48fd5453bbde9ebeff5d6be9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7ddc9054f8f44b1e3860028e0fa699abdb53848d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\329a1001d7a45efe0ea280173b844a3b97fd66fe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9984d83568e42519323929b5b669c11409b6ab84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_f230e7982793f49638de72b61ba58bab1dd07ad3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\a5b3d098756bd222b0a86e96e9534f542beb4a33\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_02a1a13db80ca09f22eef53892f4d30afd72a3ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\bf1570c54a63ac1102d06e5aac41fa26e682036c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5abc2d4f67b62232689f608349cf21864c262ce5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\69d2173e7b3d61b4cc8123fb513cab6c6ee61eff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_926ce00c62647163c133564f3d72a2db9026ad44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\0f089743f5809425f5b6ecb7a3e395120dd5b134\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f3421e6a288f1d74daba33f848f2dfa89cf827b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.3\5a1aef6a9d56efb473b8be6b66689077e7317c45\rxjava-1.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a1aef6a9d56efb473b8be6b66689077e7317c45">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.3_951e74a9771c8e50e073e382222bb90c3aa31d17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="06ea2d16e1c79cb90543e39a0ed737688cca0a9d">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d705a95737f703c942f06b100a74f3b382ed5e15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\24ca5ea4f10f94aa636a1752cfb4170d99671bcc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d226c02e627f952f35b93a282b38b79f3dea8fdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.android\build-cache\93cc99be1b0f8be5e3f82adb8de80612eb419c29\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2de5d7d10dff256cca045fa523ee71b010c890b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amanullahtariq\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Program Files (x86)\Android\android-sdk\pow-wow\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_5e1cb40b1b0091d7a169050e061cc7760f4a4648\classes.dex" />
+    </item>
+
+</items>
