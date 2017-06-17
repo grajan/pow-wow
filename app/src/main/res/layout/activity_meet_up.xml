@@ -6,18 +6,27 @@
     android:layout_height="match_parent"
     tools:context="com.hackathon.pow_wow.MeetUpActivity">
 
-    <GridView
-        android:id="@+id/tablesGridView"
+    <ListView
+        android:id="@+id/tablesListView"
+        android:background="@color/themeColor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="2"
-        android:gravity="center"
-        android:columnWidth="100dp"
-        android:stretchMode="spacingWidthUniform"
-        android:verticalSpacing="24dp"
-        android:horizontalSpacing="10dp"
-        android:layout_margin="@dimen/margin"
-    />
+        >
+
+    </ListView>
+
+    <!--<GridView-->
+        <!--android:id="@+id/tablesGridView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:numColumns="1"-->
+        <!--android:gravity="center"-->
+        <!--android:columnWidth="300dp"-->
+        <!--android:stretchMode="spacingWidthUniform"-->
+        <!--android:verticalSpacing="24dp"-->
+        <!--android:horizontalSpacing="10dp"-->
+        <!--android:layout_margin="@dimen/margin"-->
+    <!--/>-->
 
 
 </android.support.constraint.ConstraintLayout>

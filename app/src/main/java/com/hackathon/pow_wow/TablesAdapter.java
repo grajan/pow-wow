@@ -53,11 +53,24 @@ public class TablesAdapter extends BaseAdapter {
         }
 
         final ImageView imageView = (ImageView)convertView.findViewById(R.id.table_image);
-        final TextView tagsTextView = (TextView)convertView.findViewById(R.id.tags);
-        final TextView timeTextView = (TextView)convertView.findViewById(R.id.time);
+//        final ImageView user1ImageView = (ImageView)convertView.findViewById(R.id.user1);
+//        final ImageView user2ImageView = (ImageView)convertView.findViewById(R.id.user2);
+//        final ImageView user3ImageView = (ImageView)convertView.findViewById(R.id.user3);
+//        final ImageView user4ImageView = (ImageView)convertView.findViewById(R.id.user4);
+//        final ImageView user5ImageView = (ImageView)convertView.findViewById(R.id.user5);
+//        final TextView tagsTextView = (TextView)convertView.findViewById(R.id.tags);
+        final TextView timeTextView = (TextView)convertView.findViewById(R.id.time_to_go);
 
-        imageView.setImageResource(currentTable.getTableImageResource());
-        tagsTextView.setText(currentTable.getTag());
+        imageView.setImageResource(currentTable.getTableImageResource()[0]);
+
+        int[] peopleImage = currentTable.getPeopleImageResource();
+//        user1ImageView.setImageResource(peopleImage[0]);
+//        user2ImageView.setImageResource(peopleImage[1]);
+//        user3ImageView.setImageResource(peopleImage[2]);
+//        user4ImageView.setImageResource(peopleImage[3]);
+//        user5ImageView.setImageResource(peopleImage[4]);
+
+//        tagsTextView.setText(currentTable.getTag());
         timeTextView.setText(currentTable.getTimeValue());
 
         return convertView;

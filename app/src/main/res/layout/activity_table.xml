@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackathon.pow_wow.TableActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/themeColor"
+        android:layout_margin="@dimen/margin"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+
+            <fragment
+                android:name="com.hackathon.pow_wow.SwipeImageFragment"
+                android:id="@+id/table_image"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/margin"
+                android:layout_weight="7"
+                android:layout_height="0dp"
+                android:src="@drawable/table"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Something about the offer.."
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/textsize_gridcell"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:weightSum="4">
+
+
+                <ImageView
+                    android:id="@+id/user1"
+                    android:layout_width="0dp"
+                    android:layout_margin="@dimen/margin"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/user"/>
+
+                <ImageView
+                    android:id="@+id/user2"
+                    android:layout_width="0dp"
+                    android:layout_margin="@dimen/margin"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/empty_circle"/>
+
+                <ImageView
+                    android:id="@+id/userEtc"
+                    android:layout_width="0dp"
+                    android:layout_margin="@dimen/margin"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/etc_circle"/>
+
+                <TextView
+                    android:id="@+id/tags"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Time"
+                    android:textColor="@color/textColor"
+                    android:layout_marginRight="@dimen/margin"
+                    android:textSize="@dimen/textsize_gridcell"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/map_label"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Time"
+                    android:textColor="@color/textColor"
+                    android:layout_marginRight="@dimen/margin"
+                    android:textSize="@dimen/textsize_gridcell"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="0dp"
+                    android:layout_margin="@dimen/margin"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/etc_circle"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

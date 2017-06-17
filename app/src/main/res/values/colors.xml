@@ -5,8 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorBlack">#080808</color>
 
-    <color name="textColor">#f2efef</color>
-    <color name="themeColor">#1f2546</color>
+    <color name="textColor">#635f5f</color>
+    <color name="themeColor">#b1b1b7</color>
+    <color name="cellBackgroundColor">#ffffff</color>
 
 
 </resources>
