@@ -1,11 +1,12 @@
 package com.hackathon.pow_wow;
 
 import android.content.Intent;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity implements LoginFragmentListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
      * Method invoked after user logged in
      * @param view the button which the user tapped
      */
-    public void onLogin(View view) {
+    @Override
+    public void loginButtonClicked() {
 
         Intent meetUpIntent = new Intent(this, MeetUpActivity.class);
         startActivity(meetUpIntent);
