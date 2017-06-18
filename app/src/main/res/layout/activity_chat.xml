@@ -4,8 +4,24 @@
     android:layout_height="match_parent">
 
 
-    <TextView
+    <ImageView
+        android:id="@+id/chatmsg"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/msg_textbox"
         android:layout_width="wrap_content"
+        android:src="@drawable/chat"
+        android:visibility="invisible"
         android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/msg_textbox"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="Write a message..."
+        android:textSize="16dp"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>

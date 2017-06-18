@@ -33,6 +33,7 @@ dependencies {
         transitive = true
     }
 
+    compile 'org.apmem.tools:layouts:1.10@aar'
     compile 'com.android.support:appcompat-v7:25.4.0'
     testCompile 'junit:junit:4.12'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'

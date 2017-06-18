@@ -9,6 +9,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,6 +25,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.hackathon.pow_wow.UDP.UDPManager;
+import com.hendraanggrian.widget.SocialTextView;
 
 import java.util.Random;
 
@@ -54,6 +56,7 @@ public class MeetUpActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
         UDPManager.startServer();
         UDPManager.startClient();
@@ -171,8 +174,8 @@ public class MeetUpActivity extends AppCompatActivity {
 
         tables = new Table[5];
 
-        tables[0] = new Table(R.drawable.mcdonalds_icon, R.drawable.mcdonalds_entry_image, R.drawable.mcdonalds_detail, "Get together @McD", "#minipicnic","15min",3);
-        tables[1] = new Table(R.drawable.custom_table_icon, R.drawable.p1, R.drawable.p1, "Frustrated by security!", "#momentOfTruth","15min",4);
+        tables[0] = new Table(R.drawable.mcdonalds_icon, R.drawable.mcdonalds_entry, R.drawable.mcdonalds_detail, "Get together @McD", "Guys, stop by at @mcdonalds, we are talking about the upcoming #gameofthrones season..","15min",3);
+        tables[1] = new Table(R.drawable.custom_table_icon, R.drawable.p1, R.drawable.p1, "Head to @burgerKing for if you're a #gaming freak.", "#momentOfTruth","15min",4);
         tables[2] = new Table(R.drawable.burger_king_icon, R.drawable.burger_king_entry, R.drawable.burger_king_detail, "BurgerKing", "#eat","15min",2);
         tables[3] = new Table(R.drawable.star_bucks_icon, R.drawable.starbucks_entry_image, R.drawable.starbucks_detail, "Need help with German", "#language training over #coffee","15min",5);
         tables[4] = new Table(R.drawable.custom_table_icon, R.drawable.p2, R.drawable.p2, "Deep thinking", "#DeepMind","15min",5);

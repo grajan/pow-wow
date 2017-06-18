@@ -39,12 +39,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Muazzam\.android\build-cache\5f8776337ef6f99186fe2c0a0d2351ef78aefb29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a9f96bfbb71dc928a5d01440d879ef17f3f2349">
+        <dex dex="E:\Projects\aviation\pow-wow\app\build\intermediates\pre-dexed\debug\classes_ccb3b1bf5fc47e93837bdbdd57c03cc4f9f7f480.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Muazzam\.android\build-cache\4a57da0832f1c50fb30f6b3b1d484c4421d1ed50\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
         <dex dex="E:\Projects\aviation\pow-wow\app\build\intermediates\pre-dexed\debug\classes_6b78cd65ff6783274d8ece15d02b04065e150ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Muazzam\.android\build-cache\534ff724fa068bc33f4e60b72c9a05cedd0309e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa699747da8957b6c1d0c62fab346ce340958e79">
+        <dex dex="E:\Projects\aviation\pow-wow\app\build\intermediates\pre-dexed\debug\classes_0f84d8c0fae104d371dac61b1d1972a1ec30f8bf.jar" />
     </item>
     <item
         is-multidex="false"

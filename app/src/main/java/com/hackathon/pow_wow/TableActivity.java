@@ -11,9 +11,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-import java.util.Random;
 
 public class TableActivity extends Activity{
 
@@ -36,8 +33,6 @@ public class TableActivity extends Activity{
         setContentView(R.layout.activity_table);
 
 
-//        table = (Table) getIntent().getSerializableExtra("Table");
-//
         btnJoin = (Button) findViewById(R.id.btn_join);
         location = (TextView) findViewById(R.id.lbl_mapbtn);
         btnChat = (Button) findViewById(R.id.btn_chat);
@@ -58,6 +53,13 @@ public class TableActivity extends Activity{
                     cardViewLocationDetails.setVisibility(View.INVISIBLE);
                     btnJoin.setText("Join");
                 }
+            }
+        });
+
+        btnChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TableActivity.this,chatActivity.class));
             }
         });
 
