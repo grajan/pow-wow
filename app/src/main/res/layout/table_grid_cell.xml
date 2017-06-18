@@ -32,7 +32,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:layout_marginTop="@dimen/margin"
                 android:weightSum="6">
 
 
@@ -67,7 +66,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_marginBottom="5dp"
-                        android:layout_weight="2"
+                        android:layout_weight="2.4"
                         android:paddingLeft="@dimen/margin"
                         android:text="Starbucks"
                         android:textColor="@color/textColor"
@@ -79,7 +78,7 @@
                         android:id="@+id/topic"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="3"
+                        android:layout_weight="3.2"
                         android:paddingLeft="@dimen/margin"
                         android:paddingTop="4dp"
                         android:text="hey anyone wants to join me for a #coffee"
@@ -121,16 +120,17 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/people_red"
+                    android:layout_marginLeft="8dp"
                     android:padding="@dimen/margin"
                     android:layout_weight="1"/>
 
-                <ImageView
-                    android:id="@+id/tag"
+                <TextView
+                    android:id="@+id/no_of_peoples"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/tag_red"
                     android:padding="12dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"/>
 
             </LinearLayout>
 
@@ -144,7 +144,8 @@
                     android:id="@+id/join_icon"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ifinder3"/>
+                    android:src="@drawable/ifinder3"
+                    android:layout_marginBottom="2dp"/>
 
             </LinearLayout>
 

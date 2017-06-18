@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  * Created by Rajan on 6/16/17.
@@ -57,6 +58,11 @@ public class TablesAdapter extends BaseAdapter {
 
         final TextView tagView = (TextView) convertView.findViewById(R.id.topic);
         tagView.setText(currentTable.getTag());
+
+        final TextView numberOfPeople = (TextView) convertView.findViewById(R.id.no_of_peoples);
+        Random ran = new Random();
+        numberOfPeople.setText(String.valueOf(ran.nextInt(15)+1));
+
 
         final ImageView imageView = (ImageView)convertView.findViewById(R.id.icon);
         imageView.setImageResource(currentTable.getTableIconImageResource());
