@@ -46,12 +46,10 @@ public class MapActivity extends Activity {
     }
 
     @Override
-    public void onBackPressed() {
-        //if ( mapView == null || !mapView.onBackPressed() ) {
-        //    super.onBackPressed();
-        //}
-        showNavigation();
+    protected void onResume(){
+        super.onResume();
     }
+
 
     private void loadAirport(String venueId) {
         final RelativeLayout rl = new RelativeLayout( this );
