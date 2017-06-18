@@ -9,4 +9,11 @@
         app:showAsAction="always"
         android:orderInCategory="0"/>
 
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:title="Search the pows"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+
 </menu>

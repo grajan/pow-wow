@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#EB2026</color>
+    <color name="colorPrimaryText">#ffffff</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorBlack">#080808</color>
 
     <color name="textColor">#635f5f</color>
-    <color name="themeColor">#b1b1b7</color>
+    <color name="themeColor">#e0e0e7</color>
     <color name="cellBackgroundColor">#ffffff</color>
 
 

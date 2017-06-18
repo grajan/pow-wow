@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="picasso-commons-0.12.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/picasso-commons-0.12.0.aar/b48a354e2b9804119bf03ba1345d09b3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/picasso-commons-0.12.0.aar/b48a354e2b9804119bf03ba1345d09b3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hendraanggrian/picasso-commons/0.12.0/bd792787e3356b60f63a70f155c36be21a392adf/picasso-commons-0.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

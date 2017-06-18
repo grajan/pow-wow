@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="support-utils-0.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-utils-0.12.aar/b6d4a48a7b6d649edebaf55a0557cf3c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-utils-0.12.aar/b6d4a48a7b6d649edebaf55a0557cf3c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hendraanggrian/support-utils/0.12/bcbf7a252a001c75fdc51815f4276c6dae5da0b7/support-utils-0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

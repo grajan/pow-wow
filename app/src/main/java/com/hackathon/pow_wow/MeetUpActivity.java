@@ -25,7 +25,9 @@ import android.widget.Toast;
 
 import java.util.Random;
 
-public class MeetUpActivity extends FragmentActivity {
+import static java.security.AccessController.getContext;
+
+public class MeetUpActivity extends AppCompatActivity {
 
     private GridView tablesGridView;
 
@@ -67,6 +69,9 @@ public class MeetUpActivity extends FragmentActivity {
 
         configureShake();
     }
+
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -82,37 +87,15 @@ public class MeetUpActivity extends FragmentActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_name) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Title");
-
-// Set up the input
-            final EditText input = new EditText(this);
-// Specify the type of input expected; this, for example, sets the input as a password, and will mask the text
-            input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-            builder.setView(input);
-
-// Set up the buttons
-            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                }
-            });
-            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    dialog.cancel();
-                }
-            });
-
-            builder.show();
+            confirmDialog();
         }
-
+        else if (id == R.id.action_search) {
+            searchDialog();
+        }
         return super.onOptionsItemSelected(item);
     }
-    public void confirmFireMissiles() {
-        DialogFragment newFragment = new MyDialog();
-        newFragment.show(getSupportFragmentManager(), "missiles");
-    }
+
+
     private void gotoDetailView(int position) {
 
         Intent tableIntent = new Intent(MeetUpActivity.this, TableActivity.class);
@@ -184,5 +167,15 @@ public class MeetUpActivity extends FragmentActivity {
 
             tables[i] = new Table();
         }
+    }
+
+    public void confirmDialog() {
+        DialogFragment newFragment = new DialogBoxFragment();
+        newFragment.show(getFragmentManager(), "DialogBox");
+    }
+
+    public void searchDialog() {
+        Intent searchIntent = new Intent(this, SearchActivity.class);
+        startActivity(searchIntent);
     }
 }

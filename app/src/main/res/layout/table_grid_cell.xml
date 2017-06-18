@@ -2,99 +2,148 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="250dp"
+    android:minHeight="250dp"
     android:background="@color/themeColor"
-    android:layout_marginTop="@dimen/margin"
-    android:layout_marginBottom="@dimen/margin"
     >
 
     <LinearLayout
+        android:id="@+id/main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/margin"
+        android:layout_height="250dp"
+        android:minHeight="250dp"
         android:background="@color/cellBackgroundColor"
         android:orientation="vertical"
-        android:weightSum="10">
-
-        <ImageView
-            android:id="@+id/table_image"
-            android:layout_width="match_parent"
-            android:layout_weight="8"
-            android:layout_height="0dp"
-            android:src="@drawable/table"/>
-
+        android:layout_margin="@dimen/margin"
+        android:weightSum="5.5">
 
         <LinearLayout
-            android:orientation="horizontal"
+            android:id="@+id/title_view_layout"
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_marginTop="@dimen/margin"
-            android:weightSum="6">
+            android:weightSum="2">
 
-            <TextView
-                android:id="@+id/description"
+            <LinearLayout
+                android:id="@+id/top_bar_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="@dimen/margin"
+                android:weightSum="6">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="5"
+                    android:orientation="vertical">
+
+                <ImageView
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:src="@drawable/app_icon"
+                    />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/brand_layout"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginTop="@dimen/margin"
+                    android:weightSum="5">
+
+
+                    <TextView
+                        android:id="@+id/brand_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="Starbucks"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/margin"
+                        android:textColor="@color/textColor"
+                        android:textSize="24sp" />
+
+
+                    <com.hendraanggrian.widget.SocialTextView
+                        android:id="@+id/brand_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:paddingTop="4dp"
+                        android:text="hey anyone wants to join me for a #coffee"
+                        android:paddingLeft="@dimen/margin"
+                        android:textColor="@color/textColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--Image view for the table-->
+        <ImageView
+            android:id="@+id/table_image"
+            android:layout_width="match_parent"
+            android:layout_weight="2.35"
+            android:layout_height="0dp"
+            android:src="@drawable/ads_2"/>
+
+<!--Layout for the bottom part-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="7">
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
-                android:text="50% off on buying the party pack for 5 people"
-                android:gravity="center"
-                android:textColor="@color/textColor"
-                android:textSize="18sp" />
+                android:layout_weight="6"
+                android:weightSum="6">
 
 
-            <TextView
-                android:id="@+id/time_to_go"
+                <ImageView
+                    android:id="@+id/number_of_people"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ifinder2"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:id="@+id/tag"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ifinder1"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="45min more"
-                android:textColor="@color/textColor"
-                android:gravity="center"
-                android:layout_marginRight="@dimen/margin"
-                android:textSize="11dp"
-                android:textAlignment="center"/>
+                android:layout_weight="1">
 
+                <ImageView
+                    android:id="@+id/join_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ifinder3"/>
 
-            <!--<ImageView-->
-            <!--android:id="@+id/user1"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_margin="@dimen/margin"-->
-            <!--android:layout_weight="1"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:src="@drawable/user"/>-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/user2"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_margin="@dimen/margin"-->
-            <!--android:layout_weight="1"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:src="@drawable/empty_circle"/>-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/user3"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_margin="@dimen/margin"-->
-            <!--android:layout_weight="1"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:src="@drawable/user"/>-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/user4"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_margin="@dimen/margin"-->
-            <!--android:layout_weight="1"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:src="@drawable/empty_circle"/>-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/user5"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_margin="@dimen/margin"-->
-            <!--android:layout_weight="1"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:src="@drawable/etc_circle"/>-->
+            </LinearLayout>
 
         </LinearLayout>
 
