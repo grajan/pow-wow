@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -25,6 +26,8 @@ public class TableActivity extends Activity{
 
     private ImageView btnMap;
 
+    private CardView cardViewLocationDetails;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,24 +42,20 @@ public class TableActivity extends Activity{
         location = (TextView) findViewById(R.id.lbl_mapbtn);
         btnChat = (Button) findViewById(R.id.btn_chat);
         btnMap = (ImageView) findViewById(R.id.btn_map);
+        cardViewLocationDetails = (CardView) findViewById(R.id.card_view_location_details);
 
         btnJoin.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
 
-                if (btnChat.getVisibility() == View.INVISIBLE) {
-
-                    btnChat.setVisibility(View.VISIBLE);
-                    btnMap.setVisibility(View.VISIBLE);
-                    location.setVisibility(View.VISIBLE);
+                if (cardViewLocationDetails.getVisibility() == View.INVISIBLE) {
+                    cardViewLocationDetails.setVisibility(View.VISIBLE);
                     btnJoin.setText("Unjoin");
                 }
                 else {
 
-                    btnChat.setVisibility(View.INVISIBLE);
-                    btnMap.setVisibility(View.INVISIBLE);
-                    location.setVisibility(View.INVISIBLE);
+                    cardViewLocationDetails.setVisibility(View.INVISIBLE);
                     btnJoin.setText("Join");
                 }
             }

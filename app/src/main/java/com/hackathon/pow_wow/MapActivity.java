@@ -75,10 +75,9 @@ public class MapActivity extends Activity {
                                                   Floor floor, Marker marker) {
                 airport = _airport;
                 mapView = _mapView;
-
+                showNavigation();
             }
         };
-
         airportDatabase.loadAirportAndMap(venueId, "", listeners);
     }
 
