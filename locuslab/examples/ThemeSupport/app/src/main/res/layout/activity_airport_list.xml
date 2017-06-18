@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+        <Spinner
+            android:id="@+id/stages"
+            android:background="#454545"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="95"/>
+
+        <Button
+            android:id="@+id/settings_button"
+            android:background="#454545"
+            android:drawableStart="@android:drawable/ic_menu_edit"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    tools:context="com.example.locuslabs.themesupport.AirportListActivity">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/accent_material_dark"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

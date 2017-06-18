@@ -22,7 +22,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "../../locuslab/maven/releases"
+            url "..//locuslab/maven/releases"
         }
     }
 }
