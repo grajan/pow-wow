@@ -55,7 +55,6 @@ public class TableActivity extends FragmentActivity implements SwipeFragmentInte
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(this, );
             }
         });
     }

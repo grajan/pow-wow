@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="socialview-core-0.13.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/socialview-core-0.13.0.aar/a3bb92cf61a9c88bfbe41125210d92ca/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/socialview-core-0.13.0.aar/a3bb92cf61a9c88bfbe41125210d92ca/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/feb4beee808ec910f66188ce2cd3942d929d0e1f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/feb4beee808ec910f66188ce2cd3942d929d0e1f/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
