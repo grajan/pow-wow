@@ -171,11 +171,11 @@ public class MeetUpActivity extends AppCompatActivity {
 
         tables = new Table[5];
 
-        tables[0] = new Table(R.drawable.mcdonalds_icon, R.drawable.mcdonalds_entry, R.drawable.mcdonalds_detail, "Get together @McD", "#minipicnic","15min",3);
+        tables[0] = new Table(R.drawable.mcdonalds_icon, R.drawable.mcdonalds_entry_image, R.drawable.mcdonalds_detail, "Get together @McD", "#minipicnic","15min",3);
         tables[1] = new Table(R.drawable.custom_table_icon, R.drawable.p1, R.drawable.p1, "Frustrated by security!", "#momentOfTruth","15min",4);
-        tables[2] = new Table(R.drawable.burger_king_icon, R.drawable.burger_king_entry, R.drawable.burger_king_detail, "BurgerKing", "#coffee","15min",2);
-        tables[3] = new Table(R.drawable.star_bucks_icon, R.drawable.starbucks_entry, R.drawable.starbucks_detail, "Need help with German", "#language training over #coffee","15min",5);
-        tables[4] = new Table(R.drawable.custom_table_icon, R.drawable.p2, R.drawable.p2, "My Topic", "#coffee","15min",5);
+        tables[2] = new Table(R.drawable.burger_king_icon, R.drawable.burger_king_entry, R.drawable.burger_king_detail, "BurgerKing", "#eat","15min",2);
+        tables[3] = new Table(R.drawable.star_bucks_icon, R.drawable.starbucks_entry_image, R.drawable.starbucks_detail, "Need help with German", "#language training over #coffee","15min",5);
+        tables[4] = new Table(R.drawable.custom_table_icon, R.drawable.p2, R.drawable.p2, "Deep thinking", "#DeepMind","15min",5);
 
     }
 
