@@ -52,14 +52,18 @@ public class TablesAdapter extends BaseAdapter {
             convertView = layoutInflater.inflate(R.layout.table_grid_cell, null);
         }
 
-        final ImageView imageView = (ImageView)convertView.findViewById(R.id.table_image);
-//        final TextView timeTextView = (TextView)convertView.findViewById(R.id.time_to_go);
+        final TextView titleView = (TextView) convertView.findViewById(R.id.title);
+        titleView.setText(currentTable.getTableDiscussionTopic());
 
-        imageView.setImageResource(R.drawable.ads_1);
+        final TextView tagView = (TextView) convertView.findViewById(R.id.topic);
+        tagView.setText(currentTable.getTag());
 
-//        int[] peopleImage = currentTable.getPeopleImageResource();
+        final ImageView imageView = (ImageView)convertView.findViewById(R.id.icon);
+        imageView.setImageResource(currentTable.getTableIconImageResource());
 
-//        timeTextView.setText(currentTable.getTimeValue());
+        final ImageView entryImageView = (ImageView)convertView.findViewById(R.id.entryImage);
+        entryImageView.setImageResource(currentTable.getTableEntryImageResource());
+
 
         return convertView;
     }

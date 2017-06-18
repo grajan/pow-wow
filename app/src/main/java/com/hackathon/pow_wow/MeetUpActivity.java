@@ -23,6 +23,8 @@ import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.hackathon.pow_wow.UDP.UDPManager;
+
 import java.util.Random;
 
 import static java.security.AccessController.getContext;
@@ -35,7 +37,9 @@ public class MeetUpActivity extends AppCompatActivity {
 
     private TablesAdapter tablesAdapter;
 
-    private Table[] tables;
+    public static Table[] tables;
+
+    public static int position;
 
     // The following are used for the shake detection
      /* put this into your activity class */
@@ -50,6 +54,11 @@ public class MeetUpActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        UDPManager.startServer();
+        UDPManager.startClient();
+
+
         setContentView(R.layout.activity_meet_up);
 
         fetchTablesArray();
@@ -98,9 +107,8 @@ public class MeetUpActivity extends AppCompatActivity {
 
     private void gotoDetailView(int position) {
 
+        MeetUpActivity.position = position;
         Intent tableIntent = new Intent(MeetUpActivity.this, TableActivity.class);
-        Table table = tables[position];
-        tableIntent.putExtra("Table", table);
         startActivity(tableIntent);
     }
 
@@ -161,12 +169,14 @@ public class MeetUpActivity extends AppCompatActivity {
 
     private void fetchTablesArray() {
 
-        tables = new Table[10];
+        tables = new Table[5];
 
-        for(int i = 0; i < 10; i++) {
+        tables[0] = new Table(R.drawable.mcdonalds_icon, R.drawable.mcdonalds_entry, R.drawable.mcdonalds_detail, "Get together @McD", "#minipicnic","15min",3);
+        tables[1] = new Table(R.drawable.custom_table_icon, R.drawable.p1, R.drawable.p1, "Frustrated by security!", "#momentOfTruth","15min",4);
+        tables[2] = new Table(R.drawable.burger_king_icon, R.drawable.burger_king_entry, R.drawable.burger_king_detail, "BurgerKing", "#coffee","15min",2);
+        tables[3] = new Table(R.drawable.star_bucks_icon, R.drawable.starbucks_entry, R.drawable.starbucks_detail, "Need help with German", "#language training over #coffee","15min",5);
+        tables[4] = new Table(R.drawable.custom_table_icon, R.drawable.p2, R.drawable.p2, "My Topic", "#coffee","15min",5);
 
-            tables[i] = new Table();
-        }
     }
 
     public void confirmDialog() {
